@@ -1,0 +1,206 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
+/*Estilos personalizados*/
+body, html {
+    background-color:#edeae5;
+    color:  #37af82;
+    height: 100vh;
+}
+.altura{
+    min-height: 190px;
+    max-height: 200px;
+    align-items: center;
+}
+
+.titulo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+.titulo button{
+    font-family: 'Oswald', sans-serif;
+}
+
+.texto{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Arial';
+}
+
+/* Estilos de ID*/
+#colunas{
+    background-image: url('../images/dentista3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    background-image: url('../images/6.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  
+}
+
+#logo{
+    background-image: url('../images/MAGALI.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 80%;
+
+}
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+*/
+
+.cabecalho {
+    padding-top: 34px;
+    padding-left: 35px;
+    
+
+}
+.cabecalho2 {
+    padding-top: 5px;
+    padding-left: 280px;
+
+}
+
+
+.titulo-cabecalho {
+    font-size: 15px;
+    color: rgb(8, 167, 127);
+    /*display: inline;*/
+}
+
+.link-cabecalho {
+    font-size: 14px;
+    color: rgb(8, 167, 127);
+    display: inline;
+    margin-left: 200px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form {
+    background-color: rgb(219, 243, 213);
+    border-radius: 10px;
+   
+    padding: 20px;
+    margin-right: 35px;
+    position: relative;
+   
+
+}
+
+
+
+textarea {
+    display: block;
+    height: 100px;
+    width: 250px;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 15px;
+    color: black;
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#titulo-meio {
+    font-size: 40px;
+    color: rgb(55, 175,130);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(219, 243, 213);
+    border: 1px solid rgb(55, 175,130);
+}
+
+.meio-pagina {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#titulo-pagina {
+    width: 70%;
+}
+
+#formulario-principal {
+    margin-top: 80px;
+    width: auto;
+}
+
+.titulo-card {
+    background-color: rgb(55,175,130);
+    color: #ffff;
+    text-align: center;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+    
+} 
+
+.lista-card {
+    padding: 20px;
+}
+
+.lista-item {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.caixa-inferior {
+  background-color: rgb(55, 175, 130);
+}
+
+#titulo-inferior {
+    color: rgb(220, 255, 247);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.paragrafo-inferior {
+    color: rgb(220, 255, 247);
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
+
+.formulario-fundo{
+    background-image: url('../images/foto (1).png');
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
