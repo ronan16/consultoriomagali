@@ -183,7 +183,7 @@ label {
   background-color: rgb(55, 175, 130);
 }
 
-#titulo-inferior {
+.titulo-inferior {
     color: rgb(220, 255, 247);
     font-size: 40px;
     text-align: center;
@@ -204,3 +204,21 @@ label {
     background-repeat: no-repeat;
 
 }
+.tamanho-logo{
+    width: 30%;
+}
+
+
+@media only screen and (max-width: 520px) {
+    ul {
+        list-style-type: none;
+    }
+
+    .titulo-mobile{
+        font-size: 1.3rem;
+    }
+    .tamanho-logo{
+        width: 80%;
+  
+    }
+  }
